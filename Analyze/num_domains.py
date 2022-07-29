@@ -1,7 +1,8 @@
+#This is used to find the number of domains and oses in our data 
 #!/usr/bin/env python
 import os 
 import numpy as np
-source="/home/user/Desktop/recon/code/data/domain_os/"
+source="" #path of domain_os folder
 domains=[]
 oses=[]
 for file in os.listdir(source):
