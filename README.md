@@ -4,4 +4,5 @@ The code in this repository is used to analyse the results obtained from the  Re
 The code in the neural folder is used to  make a new model.<br /> 
 The proposed model is trained using the already collected labeled data. It employs a deep learning technique to train the model and make predictions for the newly detected data.<br />
 link to ReCon code -https://github.com/Eyasics/recon.<br />
-The dataset consists of data from two papers ReCon and Antshield 
+The dataset consists of data from two papers ReCon and Antshield. <br />
+The .arff files are made using ReCon code 
