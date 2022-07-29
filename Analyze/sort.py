@@ -1,13 +1,14 @@
+#This is used to create the training and testing folders for predictions 
 #!/usr/bin/env python
 from pandas import *
 import shutil
 import os
 
-data = read_csv("/home/user/Desktop/recon/code/index_dat2.csv")
-name=data['name2'].tolist()
+data = read_csv("index_dat.csv") #csv ile with names of a the data files
+name=data['name'].tolist()
 
-source = "/home/user/Desktop/recon/code/data/domain_os/"
-destination = "/home/user/Desktop/recon/code/validate_recon/"
+source = "/domain_os/" #source directory
+destination = "/validate/" #destination directory
 i=0
 for filename in os.listdir(source):
   
